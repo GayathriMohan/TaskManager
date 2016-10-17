@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    background: #0079bf;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+section {
+    background: #e2e4e6;
+    padding: 1px;
+}
+
+.col-head {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+.demo-card-square.mdl-card {
+    width: auto;
+    height: auto;
+    border-radius: 3%;
+    margin: 4%;
+}
+
+.demo-card-square > .mdl-card__title {
+    color: #0079bf;
+    font-size: 15px;
+    padding: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.demo-card-square>.mdl-card__supporting-text {
+    padding: 6px;
+    width: auto;
+    text-align: center;
+}
+
+.assignee,
+.assignee-desc {
+    text-align: center;
+}
+
+.assignee-name,
+.pro-title {
+    font-size: 15px;
+    margin: 8px;
+    line-height: 20px;
+}
+
+
+/*.closed{
+	color:green;
+	text-decoration: line-through;
+}
+qafailed{color:red;}
+*/
+
+.card-wrapper {
+    height: 452px;
+    overflow: hidden;
+}
+
+.columns {
+    height: 530px;
+    overflow: hidden;
+}
+
+.assignee-name {
+    font-weight: bold;
+}
+
+.assignee-desc {
+    padding-top: 5px;
+}
+
+span,
+.assignee-desc {
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54)
+}
+
+.priority {
+    float: right;
+}
+
+.each-column {
+    width: 15.5%;
+}
+
+img {
+    border-radius: 30px;
+    width: 58px;
+    margin-left: 35%;
+}
